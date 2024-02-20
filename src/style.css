@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  margin-top: 10px;
+  width: 357px;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 3px darkgreen;
+}
+
+.card-number {
+  font-size: 133px;
+  font-family: "Lucida Sans Unicode";
+}
+
+.top-left-suite {
+  padding-left: 10px;
+  font-size: 99px;
+}
+
+.bot-right-suite {
+  padding-left: 10px;
+  font-size: 99px;
+  transform: rotate(-180deg);
+}
